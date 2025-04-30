@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Qexpo",
+    "slug": "qexpo",
+    "version": "1.0.6",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "requireFullScreen": true,
+      "bundleIdentifier": "com.happy.qexpo",
+      "buildNumber": "1.0.6",
+      "config": {
+        "googleMapsApiKey": "AIzaSyBLNORCxHJyiNcjqP0HPaibLFoea5_Evkk"
+      }
+    },
+    "web": {
+      "favicon": "./src/assets/favicon.png"
+    },
+    "sdkVersion": "41.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "android": {
+      "package": "com.happy.qexpo",
+      "versionCode": 1,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCfhSyz6dVvBgThpdwN9vsqbvXkRdQ9PVk"
+        }
+      }
+    }
+  }
+}
